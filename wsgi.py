@@ -17,7 +17,7 @@ def hello():
     channel.basic_publish(exchange='', routing_key='hello', body='Hello World!')
    
     connection.close()
-    return "Hello World Hiiii!"
+    return "Hello World Hiiii! connection creatteeed"
 
 if __name__ == "__main__":
     application.run()
